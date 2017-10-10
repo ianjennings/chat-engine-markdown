@@ -54,7 +54,6 @@ module.exports = (config = {}) => {
 
 
     result.middleware.on[config.event] = parseMarkdown;
-    result.middleware.on['$history.' + config.event] = parseMarkdown;
 
     return result;
 
