@@ -4,7 +4,7 @@ const YOUR_PUBLISH_KEY = '';
 const YOUR_SUBSCRIBE_KEY = '';
 
 // just making sure you're paying attention
-if (YOUR_PUBLISH_KEY === '' || YOUR_SUBSCRIBE_KEY === 0) {
+if (YOUR_PUBLISH_KEY === '' || YOUR_SUBSCRIBE_KEY === '') {
     alert('You forgot to enter your keys');
 }
 
